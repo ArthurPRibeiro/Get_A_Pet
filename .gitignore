@@ -1,0 +1,10 @@
+node_modules/
+build/
+.env*
+npm-debug.log*
+
+# fotos enviadas pelos usuarios (as pastas ficam, o conteudo nao)
+backend/public/images/users/*
+backend/public/images/pets/*
+!backend/public/images/users/.gitkeep
+!backend/public/images/pets/.gitkeep
